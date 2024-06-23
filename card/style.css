@@ -1,0 +1,43 @@
+#card{
+    width: 250px;
+    height: 300px;
+    border: 2px solid black;
+    border-radius: 10px;
+    display: inline-block;
+    margin: 10px;
+    box-shadow: 2px 2px 10px black;
+    /* we can also use transition if we we wanna apply slow effect when we hover */
+    /* transition: 0.3s; */
+}
+
+
+
+img{
+    width:70%;
+    height: 60%;
+    margin-left: 35px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+/*hr tag is used to draw a ending line  */
+hr{
+    color: black ;
+}
+h3{
+    padding-left: 10px;
+    display: inline;
+    color: black;
+}
+p{
+    padding-left: 10px;
+    color: black;
+
+}
+
+#card:hover{
+    box-shadow: 2px 2px 20px black;
+}
+
+a{
+    text-decoration: none;
+}
